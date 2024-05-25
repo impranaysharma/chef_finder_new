@@ -1,0 +1,106 @@
+#poshead{
+    font-size: 2em;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+
+}
+#posline{
+    font-size: 1.4em;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+.v1{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+.h1{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    
+}
+.v11{
+    display: flex;
+    flex-direction: column;
+    
+}
+#pos1{
+    height: 8em;
+    width: 8em;
+}
+#pos2{
+    height: 10em;
+    width: 10em;
+}
+#pos1h{
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 2em;
+}
+#pos1l{
+    font-size: 0.7em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+.h2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.h3{
+    margin-left: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+.h4{
+    margin-left: 3em;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+}
+#pos3{
+    height: 12em;
+    width: 12em;
+}
+#pos4{
+    height: 12em;
+    width: 12em;
+}
+#pos2h{
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 2em;
+}
+#pos2l{
+    font-size: 0.7em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+#pos3h{
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 2em;
+}
+#pos3l{
+    font-size: 0.7em;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+#pos4h{
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+#pos4l{
+    font-size: 0.7em;
+    margin-left: 2em;
+    margin-top: 2em;
+}

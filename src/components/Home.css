@@ -1,0 +1,56 @@
+
+#hline{
+    margin-left: auto;
+    text-align: center;
+    font-weight: 600;
+    
+}
+#hline:hover{
+    border-width: 20em;
+    border-bottom: solid black 0.1em;
+    transition-duration: 3s;
+}
+.numc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+}
+#ct1{
+    font-size: 2em;
+    font-weight: 800;
+}
+#nl{
+    background-color: rgb(66, 55, 67);
+    width: 20vw;
+    border: solid rgb(57, 26, 63) 0.1em;
+    border-radius: 1em;
+}
+#nr{
+    background-color: rgb(72, 54, 54);
+    width: 20vw;
+    border: solid black 0.1em;
+    border-radius: 1em;
+}
+
+#mimg{
+    height: 20em;
+    width: 20em;
+}
+#mide{
+    background-color: aqua;
+    margin: 1em;
+    border: solid 0.1em aqua;
+    border-radius: 1em;
+}
+#l1h{
+    font-size: 3em;
+}
+#mide:hover{
+    height: 30em;
+    border: solid 0.5em black;
+    transition-duration: 3s;
+}

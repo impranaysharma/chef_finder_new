@@ -8,6 +8,8 @@ import Map from './components/map';
 import Pos from './components/Pos';
 import Solution from './components/Solution';
 import Welcome from './components/Welcome';
+import Section from './components/Section';
+import Cardhover from './components/Cardhover';
 
 
 
@@ -17,11 +19,12 @@ function App() {
       <Navbar/>
       <Welcome/>
       <Home/>
-      
+      <Section/>
       <Testimonials/>
       <Solution/>
       <Pos/>
       <Map/>
+      <Cardhover/>
       <Footer/>
      
       

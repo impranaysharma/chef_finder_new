@@ -4,9 +4,10 @@ import pos1 from "../assests/pos1.webp"
 import pos2 from "../assests/pos2.webp"
 import pos3 from "../assests/pos3.webp"
 import pos4 from "../assests/pos4.webp"
+
 const Pos = () => {
   return (<>
-  
+  <div className='wpos'>
     <div id='poshead'>A restaurant POS made for all your needs</div>
     <div id='posline'> A quick and easy-to-use restaurant billing software that <br/>makes managing high order volumes butter smooth</div>
     <br/><br/>
@@ -25,7 +26,7 @@ const Pos = () => {
    
    </div>
    </div>
-   
+   </div>
     </>
   )
 }

@@ -4,13 +4,14 @@ import "./Home.css"
 import CountUp from 'react-countup';
 import { motion } from "framer-motion";
 import Flip from './Flip';
+import { MDBRipple } from 'mdb-react-ui-kit';
 
 
 const Home = () => {
   return (
     <>
     
-    <div id='mide'><div className='hero'>
+    <div id='mide'><div className='hero '>
         <div className="left">
                 <h1 id='l1h'>Cooking Staff</h1><br/>
                 <p>Treat Your Palate to Mouthwatering Delights Cooked by Our Proficient Cooking Maids. Delight in Gourmet Delicacies Served Straight to Your Dinner Table.</p>

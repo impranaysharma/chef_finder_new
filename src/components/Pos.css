@@ -30,10 +30,42 @@
 #pos1{
     height: 8em;
     width: 8em;
+    --g: 4px;     /* the gap */
+  --b: 12px;    /* border thickness*/
+  --c: #b4336d; /* the color */
+  
+  
+  padding: calc(var(--g) + var(--b));
+  --_c: #0000 0 25%, var(--c) 0 50%;
+  --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+  --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+  background:
+    var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+    var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+  background-size: 200% var(--b),var(--b) 200%;
+  cursor: pointer;
+  filter: grayscale(50%);
+  transition: .3s;
 }
 #pos2{
     height: 10em;
     width: 10em;
+    --g: 4px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #b4336d; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
 }
 #pos1h{
     font-size: 0.9em;
@@ -69,10 +101,43 @@
     height: 12em;
     width: 12em;
     margin-left: 1em;
+    --g: 4px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #b4336d; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
 }
 #pos4{
     height: 15em;
     width: 15em;
+    margin-left: 2em;
+    --g: 4px;     /* the gap */
+    --b: 12px;    /* border thickness*/
+    --c: #b4336d; /* the color */
+    
+    
+    padding: calc(var(--g) + var(--b));
+    --_c: #0000 0 25%, var(--c) 0 50%;
+    --_g1: repeating-linear-gradient(90deg ,var(--_c)) repeat-x;
+    --_g2: repeating-linear-gradient(180deg,var(--_c)) repeat-y;
+    background:
+      var(--_g1) var(--_p, 25%) 0   ,var(--_g2) 0    var(--_p,125%),
+      var(--_g1) var(--_p,125%) 100%,var(--_g2) 100% var(--_p, 25%);
+    background-size: 200% var(--b),var(--b) 200%;
+    cursor: pointer;
+    filter: grayscale(50%);
+    transition: .3s;
 }
 #pos2h{
     font-size: 1em;
@@ -115,19 +180,30 @@
 #pos1:hover{
     scale: 1.2;
     transition-duration: 2s;
+    --_p: 75%;
+  filter: grayscale(0%);
 }
 #pos2:hover{
     scale: 1.2;
     transition-duration: 2s;
+    --_p: 75%;
+  filter: grayscale(0%);
 
 }
 #pos3:hover{
     scale: 1.2;
     transition-duration: 2s;
+    --_p: 75%;
+  filter: grayscale(0%);
 
 }
 #pos4:hover{
     scale: 1.2;
     transition-duration: 2s;
+    --_p: 75%;
+  filter: grayscale(0%);
 
+}
+.wpos{
+    background-color: F1D4AF;
 }

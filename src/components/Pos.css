@@ -36,12 +36,12 @@
     width: 10em;
 }
 #pos1h{
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 600;
     margin-left: 2em;
 }
 #pos1l{
-    font-size: 0.7em;
+    font-size: 0.6em;
     margin-left: 2em;
     margin-top: 1em;
 }
@@ -70,37 +70,44 @@
     width: 12em;
 }
 #pos4{
-    height: 12em;
-    width: 12em;
+    height: 15em;
+    width: 15em;
 }
 #pos2h{
     font-size: 1em;
     font-weight: 600;
     margin-left: 2em;
+    width: 18em;
 }
 #pos2l{
     font-size: 0.7em;
     margin-left: 2em;
     margin-top: 1em;
+    width: 25em;
+
 }
 #pos3h{
     font-size: 1em;
     font-weight: 600;
     margin-left: 2em;
+    margin-top: 1em;
 }
 #pos3l{
     font-size: 0.7em;
     margin-left: 2em;
     margin-top: 1em;
+    width: 25em;
 }
 #pos4h{
     font-size: 1em;
     font-weight: 600;
     margin-left: 2em;
     margin-top: 1em;
+    width: 25em;
 }
 #pos4l{
     font-size: 0.7em;
-    margin-left: 2em;
+    margin-left: 5em;
     margin-top: 2em;
+    width: 25em;
 }

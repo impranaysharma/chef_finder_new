@@ -5,11 +5,7 @@
     font-weight: 600;
     
 }
-#hline:hover{
-    border-width: 20em;
-    border-bottom: solid black 0.1em;
-    transition-duration: 3s;
-}
+
 .numc{
     display: flex;
     flex-direction: row;
@@ -28,12 +24,14 @@
     width: 20vw;
     border: solid rgb(57, 26, 63) 0.1em;
     border-radius: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 #nr{
     background-color: rgb(72, 54, 54);
     width: 20vw;
     border: solid black 0.1em;
     border-radius: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 #mimg{
@@ -53,4 +51,5 @@
     height: 30em;
     border: solid 0.5em black;
     transition-duration: 3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

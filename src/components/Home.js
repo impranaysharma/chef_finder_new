@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 const Home = () => {
   return (
     <>
-    <h1 id='hline'>Welcome to Chef Finder</h1>
+    
     <div id='mide'><div className='hero'>
         <div className="left">
                 <h1 id='l1h'>Cooking Staff</h1><br/>

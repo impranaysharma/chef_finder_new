@@ -68,6 +68,7 @@
 #pos3{
     height: 12em;
     width: 12em;
+    margin-left: 1em;
 }
 #pos4{
     height: 15em;
@@ -89,12 +90,12 @@
 #pos3h{
     font-size: 1em;
     font-weight: 600;
-    margin-left: 2em;
+    margin-left: 4em;
     margin-top: 1em;
 }
 #pos3l{
     font-size: 0.7em;
-    margin-left: 2em;
+    margin-left: 4em;
     margin-top: 1em;
     width: 25em;
 }
@@ -110,4 +111,23 @@
     margin-left: 5em;
     margin-top: 2em;
     width: 25em;
+}
+#pos1:hover{
+    scale: 1.2;
+    transition-duration: 2s;
+}
+#pos2:hover{
+    scale: 1.2;
+    transition-duration: 2s;
+
+}
+#pos3:hover{
+    scale: 1.2;
+    transition-duration: 2s;
+
+}
+#pos4:hover{
+    scale: 1.2;
+    transition-duration: 2s;
+
 }

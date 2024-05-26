@@ -15,7 +15,7 @@ const Pos = () => {
         <img src={pos1} id='pos1'/>
     
     <div><div className='v11'><div id='pos1h'>A quick 3-click restaurant billing software</div><div id='pos1l'>Take orders, punch bills and generate KOT. Accept payments either by splitting bill or merging tables. Easily apply discounts and coupons. All of this, and more, is easy and quick with Petpooja's restaurant POS.</div></div></div></div>
-    <div className='h2' > <img src={pos2} id='pos2'/><div><div id='pos2h'>Restaurant Inventory management made easier</div><div id='pos2l'>Do inventory management the smart way. Put your inventory on the item-wise auto deduction, get low-stock alters, day-end inventory reports and more with Petpooja restaurant POS</div></div></div>
+    <div className='h2' > <img src={pos2} id='pos2' /><div><div id='pos2h'>Restaurant Inventory management made easier</div><div id='pos2l'>Do inventory management the smart way. Put your inventory on the item-wise auto deduction, get low-stock alters, day-end inventory reports and more with Petpooja restaurant POS</div></div></div>
    <div className='h3'><img src={pos3} id='pos3'/><div><div id='pos3h'> Get real-time restaurant Reports</div><div id='pos3l'>Automate your restaurant reports and go paper free! Let Petpooja POS automatically track your business activities and provide you error free reports on your restaurant’s day-end sales, online orders, staff actions, inventory consumption, and various 80+ essential business reports</div>
    </div>
    </div>
@@ -25,6 +25,7 @@ const Pos = () => {
    
    </div>
    </div>
+   
     </>
   )
 }

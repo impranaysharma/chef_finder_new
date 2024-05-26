@@ -35,21 +35,38 @@
 }
 
 #mimg{
-    height: 20em;
-    width: 20em;
+    height: 17em;
+    width: 17em;
+    margin-top: -1em;
+    border: solid white 0.1em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+
 }
 #mide{
     background-color: aqua;
     margin: 1em;
-    border: solid 0.1em aqua;
+    border: solid 0.2em balck;
     border-radius: 1em;
+    width: 65em;
+    margin-left: 15%;
+    
 }
 #l1h{
     font-size: 3em;
 }
 #mide:hover{
     height: 30em;
-    border: solid 0.5em black;
+    border: solid 0.2em black;
     transition-duration: 3s;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    scale: 1.1;
+}
+#nl:hover{
+    scale: 1.2;
+    transition-duration: 3s;
+}
+#nr:hover{
+    scale: 1.2;
+    transition-duration: 3s;
 }

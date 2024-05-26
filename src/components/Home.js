@@ -2,6 +2,10 @@ import React from 'react'
 import heroimg from '../assests/main.jpg'
 import "./Home.css"
 import CountUp from 'react-countup';
+import { motion } from "framer-motion";
+import Flip from './Flip';
+
+
 const Home = () => {
   return (
     <>
@@ -12,7 +16,9 @@ const Home = () => {
                 <p>Treat Your Palate to Mouthwatering Delights Cooked by Our Proficient Cooking Maids. Delight in Gourmet Delicacies Served Straight to Your Dinner Table.</p>
         </div>
         <div className="right">
-            <img src={heroimg} id='mimg'/>
+          <Flip/>
+          
+            
         </div>
     
     

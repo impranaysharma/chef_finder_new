@@ -10,6 +10,7 @@ import Solution from './components/Solution';
 import Welcome from './components/Welcome';
 import Section from './components/Section';
 import Cardhover from './components/Cardhover';
+import Trust from './components/Trust';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       <Navbar/>
       <Welcome/>
       <Home/>
+      <Trust/>
       <Section/>
       <Testimonials/>
       <Solution/>

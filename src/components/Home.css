@@ -14,6 +14,7 @@
     font-size: 1.5em;
     font-weight: 600;
     color: white;
+    margin-top: 2em;
 }
 #ct1{
     font-size: 2em;
@@ -41,15 +42,16 @@
     border: solid white 0.1em;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
+    margin-left: -4em;
 
 }
 #mide{
-    background-color: aqua;
-    margin: 1em;
+    background-color: white;
+    height: 27em;
     border: solid 0.2em balck;
-    border-radius: 1em;
-    width: 65em;
-    margin-left: 15%;
+    width: 100%;
+    
+    
     
 }
 #l1h{
@@ -69,4 +71,10 @@
 #nr:hover{
     scale: 1.2;
     transition-duration: 3s;
+}
+p{
+    margin-top: -2em;
+}
+.right{
+    margin-left: -1em;
 }

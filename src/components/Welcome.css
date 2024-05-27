@@ -22,7 +22,7 @@ body {
   
   h1 {
     padding: 64px;
-    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    background: linear-gradient(to right, hsl(0, 76%, 41%) 0, hsl(228, 87%, 46%) 10%, hsla(300, 2%, 11%, 0.615) 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: shine 3s infinite linear;

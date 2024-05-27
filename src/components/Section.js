@@ -26,7 +26,8 @@ export default function Section() {
   };
 
   return (
-    < ><div className='section'>
+    < >
+    <div className='section'>
       <h1 id='shead'> Define Your Self</h1>
       <MDBBtn onClick={toggleOpen} id='chef'>Chef</MDBBtn>
       <MDBBtn onClick={toggleOpen1} id='employee'>Employee</MDBBtn>

@@ -21,7 +21,7 @@
     font-weight: 800;
 }
 #nl{
-    background-color: rgb(66, 55, 67);
+    background-color: rgba(202, 51, 17, 0.688);
     width: 20vw;
     border: solid rgb(57, 26, 63) 0.1em;
     border-radius: 1em;
@@ -58,14 +58,16 @@
     font-size: 3em;
 }
 #mide:hover{
-    height: 30em;
-    border: solid 0.2em black;
-    transition-duration: 3s;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    scale: 1.1;
+    /* height: 30em; */
+    /* border: solid 0.2em black; */
+    /* transition-duration: 3s; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* scale: 1.1; */
 }
 #nl:hover{
-    scale: 1.2;
+    /* color: rgba(223, 30, 30, 0.273); */
+    background-color: rgba(63, 11, 11, 0.589);
+    /* scale: 1.2; */
     transition-duration: 3s;
 }
 #nr:hover{

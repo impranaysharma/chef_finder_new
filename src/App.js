@@ -11,6 +11,7 @@ import Welcome from './components/Welcome';
 import Section from './components/Section';
 import Cardhover from './components/Cardhover';
 import Trust from './components/Trust';
+import Form from './components/Form';
 
 
 
@@ -28,7 +29,7 @@ function App() {
       <Map/>
       <Cardhover/>
       <Footer/>
-     
+     <Form/>
       
       
     </div>

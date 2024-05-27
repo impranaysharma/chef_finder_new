@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/chef_finder_new/static/css/main.be02fa63.css",
+    "main.js": "/chef_finder_new/static/js/main.69c71c86.js",
+    "static/js/453.7ba53a11.chunk.js": "/chef_finder_new/static/js/453.7ba53a11.chunk.js",
+    "static/media/solgif.gif": "/chef_finder_new/static/media/solgif.3a4c84afaad0ad14d43c.gif",
+    "static/media/favicon.ico": "/chef_finder_new/static/media/favicon.50ac97c8c6ac338f6d7c.ico",
+    "static/media/main.jpg": "/chef_finder_new/static/media/main.492a51f395d6341be7c5.jpg",
+    "static/media/test1.png": "/chef_finder_new/static/media/test1.f33d34c272a493879819.png",
+    "static/media/trust.jpg": "/chef_finder_new/static/media/trust.421e25c39cabc3ff492b.jpg",
+    "static/media/test2.webp": "/chef_finder_new/static/media/test2.4ee2c1edce71c5a70063.webp",
+    "static/media/pos4.webp": "/chef_finder_new/static/media/pos4.783cf2c7f260f8efa987.webp",
+    "static/media/pos2.webp": "/chef_finder_new/static/media/pos2.3ffdbf650998a69eae11.webp",
+    "static/media/pos1.webp": "/chef_finder_new/static/media/pos1.0eff425103349252ce00.webp",
+    "static/media/pos3.webp": "/chef_finder_new/static/media/pos3.b66294cf5fb8dedb1a37.webp",
+    "index.html": "/chef_finder_new/index.html",
+    "main.be02fa63.css.map": "/chef_finder_new/static/css/main.be02fa63.css.map",
+    "main.69c71c86.js.map": "/chef_finder_new/static/js/main.69c71c86.js.map",
+    "453.7ba53a11.chunk.js.map": "/chef_finder_new/static/js/453.7ba53a11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be02fa63.css",
+    "static/js/main.69c71c86.js"
+  ]
+}
